@@ -22,7 +22,18 @@ body {
 
 .navBar {
     display: flex;
-    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .navBar {
+        flex-direction: column;
+    }
+}
+
+.navBarSection {
+    display: flex;
     align-content: center;
     justify-content: center;
 }
