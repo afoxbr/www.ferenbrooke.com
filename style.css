@@ -1,0 +1,73 @@
+body {
+    background-color: #282a36;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pageHead {
+    background-color: #44475a;
+    color: #f8f8f2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headTitle {
+    font-weight: 440;
+}
+
+.headText {
+    font-style: italic;
+}
+
+.navBar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.navLink {
+    padding-left: 12px;
+    padding-right: 12px;
+    color: #bd93f9;
+    text-decoration: none;
+}
+
+.mainSection {
+    text-align: center;
+    background-color: #f8f8f2;
+    color: #282a36;
+    margin: 24px;
+    padding: 16px;
+    border: 4px outset #f8f8f2;
+}
+
+.contentMenu {
+    border: 2px solid #282a36;
+}
+
+.contentPreview {
+    display: flex;
+    flex-direction: column;
+}
+
+.conTitle {
+    color: #bd93f9;
+    text-decoration: none;
+}
+
+.conBlurb {
+    font-style: italic;
+}
+
+.pageFoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #f8f8f2;
+}
+
+.pageFoot i {
+    font-size: 0.8em;
+}
