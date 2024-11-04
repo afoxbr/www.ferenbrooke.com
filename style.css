@@ -67,8 +67,8 @@ body {
     font-style: italic;
 }
 
-.storyText {
-    justify-content: left;
+.storyText p {
+    text-align: left;
 }
 
 .pageFoot {
