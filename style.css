@@ -68,7 +68,7 @@ body {
 }
 
 .storyText {
-    text-align: left;
+    justify-content: left;
 }
 
 .pageFoot {
