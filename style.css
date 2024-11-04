@@ -67,6 +67,10 @@ body {
     font-style: italic;
 }
 
+.storyText {
+    text-align: left;
+}
+
 .pageFoot {
     display: flex;
     flex-direction: column;
