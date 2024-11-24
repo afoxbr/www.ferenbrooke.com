@@ -74,6 +74,17 @@ body {
     text-align: left;
 }
 
+.serialNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serialLink {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pageFoot {
     display: flex;
     flex-direction: column;
