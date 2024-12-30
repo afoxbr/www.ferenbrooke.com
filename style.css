@@ -1,6 +1,6 @@
 body {
     background-color: #282a36;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .pageHead {
@@ -23,14 +23,9 @@ body {
 
 .navBar {
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-}
-
-@media (max-width: 800px) {
-    .navBar {
-        flex-direction: column;
-    }
 }
 
 .navLink {
@@ -38,6 +33,11 @@ body {
     padding-right: 12px;
     color: #bd93f9;
     text-decoration: none;
+}
+
+.navBar .navLink {
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 .mainSection {
