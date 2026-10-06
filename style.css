@@ -76,6 +76,10 @@ body {
     text-indent: 30px;
 }
 
+.storyText pre {
+    text-align: left;
+}
+
 .serialNav {
     display: flex;
     justify-content: space-between;
